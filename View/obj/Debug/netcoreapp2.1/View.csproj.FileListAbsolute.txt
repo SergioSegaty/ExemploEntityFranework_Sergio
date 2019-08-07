@@ -102,3 +102,4 @@ C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Vi
 C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\View.csproj.CopyComplete
 C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\View.dll
 C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\View.pdb
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\Razor\Views\Categoria\ModalCadastro.g.cshtml.cs

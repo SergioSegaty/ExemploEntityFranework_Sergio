@@ -17,11 +17,6 @@ namespace View.Controllers
             this.repository = repository;
         }
 
-
-
-
-
-
         [HttpGet]
         public IActionResult Index()
         {
@@ -42,14 +37,21 @@ namespace View.Controllers
 
 
         [HttpGet, Route("categoria/obtertodos")]
-        public JsonResult ObterTodos(int quantidade = 10, int pagina = 0, string busca = "", string colunaOrdem = "nome", string ordem = "ASC")
+        public JsonResult ObterTodos(Dictionary<string, string> search, int quantidade = 10, int pagina = 0, string colunaOrdem = "nome", string ordem = "ASC")
         {
+            string busca = search["value"];
+            if (busca == null)
+            {
+                busca = "";
+            }
+
             List<Categoria> categorias = repository.ObterTodos(quantidade, pagina, busca, colunaOrdem, ordem);  
 
             return Json(new { data = categorias });
         }
+
         [HttpPost]
-        public JsonResult Cadastrar([FromBody]Categoria categoria)
+        public JsonResult Cadastrar([FromForm]Categoria categoria)
         {
             categoria.RegistroAtivo = true;
             int id = repository.Inserir(categoria);
@@ -60,9 +62,11 @@ namespace View.Controllers
         }
 
 
-        [HttpPost]
-        public JsonResult Alterar([FromBody]Categoria categoria)
+        [HttpPost, Route("categoria/alterar")]
+        public JsonResult Alterar([FromForm]Categoria categoria)
         {
+            categoria.RegistroAtivo = true;
+
             bool alterado = repository.Alterar(categoria);
 
             var resultado = new { status = alterado };
@@ -77,6 +81,12 @@ namespace View.Controllers
             bool apagou = repository.Apagar(id);
             var resultado = new { status = apagou };
             return Json(resultado);
+        }
+
+        [HttpGet, Route("categoria/obterpeloid")]
+        public JsonResult ObterPeloId(int id)
+        {
+            return Json(repository.ObterPeloId(id));
         }
     }
 }
