@@ -16,3 +16,12 @@ C:\Users\62110\Desktop\ExemploEntityFranework-master\Model\obj\Debug\netcoreapp2
 C:\Users\62110\Desktop\ExemploEntityFranework-master\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
 C:\Users\62110\Desktop\ExemploEntityFranework-master\Model\obj\Debug\netcoreapp2.1\Model.dll
 C:\Users\62110\Desktop\ExemploEntityFranework-master\Model\obj\Debug\netcoreapp2.1\Model.pdb
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\bin\Debug\netcoreapp2.1\Model.deps.json
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\obj\Debug\netcoreapp2.1\Model.csprojAssemblyReference.cache
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\obj\Debug\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfoInputs.cache
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\obj\Debug\netcoreapp2.1\Model.dll
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Model\obj\Debug\netcoreapp2.1\Model.pdb

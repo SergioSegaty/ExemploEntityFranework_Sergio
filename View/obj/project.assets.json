@@ -12583,11 +12583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\View\\View.csproj",
+      "projectUniqueName": "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\View\\View.csproj",
       "projectName": "View",
-      "projectPath": "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\View\\View.csproj",
+      "projectPath": "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\View\\View.csproj",
       "packagesPath": "C:\\Users\\62110\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\View\\obj\\",
+      "outputPath": "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\View\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12606,11 +12606,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\Model\\Model.csproj"
+            "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\Model\\Model.csproj"
             },
-            "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\Repository\\Repository.csproj"
+            "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\Repository\\Repository.csproj"
             }
           }
         }

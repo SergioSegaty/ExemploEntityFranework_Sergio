@@ -2973,11 +2973,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\Model\\Model.csproj",
+      "projectPath": "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\62110\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\62110\\Desktop\\ExemploEntityFranework-master\\Model\\obj\\",
+      "outputPath": "C:\\Users\\62110\\Desktop\\GitHub Rep\\ExemploEntity\\ExemploEntityFranework_Sergio\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
