@@ -52,3 +52,8 @@ CREATE TABLE computadores_pecas (
 	FOREIGN KEY(id_peca) REFERENCES pecas(id),
 	registro_ativo BIT
 	);
+
+INSERT INTO categorias (nome, registro_ativo) VALUES
+('Noob', 1),
+('Semi-Pro', 1),
+('Pro', 1);

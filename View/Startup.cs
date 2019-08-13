@@ -41,6 +41,10 @@ namespace View
 
             //Injeção de Dependencia
             services.AddTransient(typeof(ICategoriaRepository), typeof(CategoriaRepository));
+            services.AddTransient(typeof(IPecaRepository), typeof(PecaRepository));
+            services.AddTransient(typeof(IComputadorPecaRepository), typeof(ComputadorPecaRepository));
+            services.AddTransient(typeof(IComputadorRepository), typeof(ComputadorRepository));
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

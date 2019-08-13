@@ -8,6 +8,7 @@ using Repository.Interfaces;
 
 namespace View.Controllers
 {
+    [Route("categoria/")]
     public class CategoriaController : Controller
     {
         private ICategoriaRepository repository;
@@ -15,6 +16,28 @@ namespace View.Controllers
         public CategoriaController(ICategoriaRepository repository)
         {
             this.repository = repository;
+        }
+
+        [HttpGet, Route("obtertodosselect2")]
+        public JsonResult ObterTodosSelect2(string term = "")
+        {
+            term = term == null ? "" : term;
+
+            var categorias = repository.ObterTodosSelect2(term);
+
+            List<object> categoriasSelect2 = new List<object>();
+
+            foreach (Categoria categoria in categorias)
+            {
+                categoriasSelect2.Add(new
+                {
+                    id = categoria.Id,
+                    text = categoria.Nome
+                });
+            }
+
+
+            return Json(new { results = categoriasSelect2 });
         }
 
         [HttpGet]
@@ -36,7 +59,7 @@ namespace View.Controllers
 
 
 
-        [HttpGet, Route("categoria/obtertodos")]
+        [HttpGet, Route("obtertodos")]
         public JsonResult ObterTodos(Dictionary<string, string> search, int quantidade = 10, int pagina = 0, string colunaOrdem = "nome", string ordem = "ASC")
         {
             string busca = search["value"];
@@ -50,7 +73,7 @@ namespace View.Controllers
             return Json(new { data = categorias });
         }
 
-        [HttpPost]
+        [HttpPost, Route("cadastrar")]
         public JsonResult Cadastrar([FromForm]Categoria categoria)
         {
             categoria.RegistroAtivo = true;
@@ -62,7 +85,7 @@ namespace View.Controllers
         }
 
 
-        [HttpPost, Route("categoria/alterar")]
+        [HttpPost, Route("alterar")]
         public JsonResult Alterar([FromForm]Categoria categoria)
         {
             categoria.RegistroAtivo = true;
@@ -74,7 +97,7 @@ namespace View.Controllers
             return Json(resultado);
         }
 
-        [HttpGet]
+        [HttpGet, Route("apagar")]
         // categoria/apagar?id=
         public JsonResult Apagar(int id)
         {
@@ -83,10 +106,12 @@ namespace View.Controllers
             return Json(resultado);
         }
 
-        [HttpGet, Route("categoria/obterpeloid")]
+        [HttpGet, Route("obterpeloid")]
         public JsonResult ObterPeloId(int id)
         {
             return Json(repository.ObterPeloId(id));
         }
+
+        
     }
 }
