@@ -19,6 +19,7 @@ namespace Repository.Repositories
 
         public bool Alterar(Peca peca)
         {
+            peca.RegistroAtivo = true;
             context.Pecas.Update(peca);
             return context.SaveChanges() == 1;
              

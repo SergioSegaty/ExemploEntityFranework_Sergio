@@ -1,21 +1,23 @@
-﻿<div class="modal" tabindex="-1" role="dialog" id="modal-peca-cadastro">
+﻿<div class="modal" tabindex="-1" role="dialog" id="modal-peca-relacionamento">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Cadastro de Peças</h5>
+                <h5 class="modal-title">Computador Pecas</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label for="modal-peca-nome">Nome</label>
-                    <input type="text" name="nome" id="modal-peca-nome" class="form-control" />
+                    <label for="modal-peca-relacionamento-peca">Peça</label>
+                    <select class="form-control"
+                            id="modal-peca-relacionamento-peca">
+                    </select>
                 </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-success" id="modal-peca-salvar">Salvar</button>
+                <button type="button" class="btn btn-primary" id="modal-peca-relacionamento-salvar">Salvar</button>
             </div>
         </div>
     </div>

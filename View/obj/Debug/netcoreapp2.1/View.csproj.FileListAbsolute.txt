@@ -107,3 +107,5 @@ C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\Vi
 C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\Razor\Views\Peca\CadastroModal.g.cshtml.cs
 C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\Razor\Views\Computador\Index.g.cshtml.cs
 C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\Razor\Views\Computador\Cadastro.g.cshtml.cs
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\Razor\Views\Computador\Editar.g.cshtml.cs
+C:\Users\62110\Desktop\GitHub Rep\ExemploEntity\ExemploEntityFranework_Sergio\View\obj\Debug\netcoreapp2.1\Razor\Views\Computador\CadastroModalPeca.g.cshtml.cs

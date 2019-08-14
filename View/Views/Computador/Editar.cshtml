@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "Editar";
+}
+<input type="hidden" id="computador-id" value="@ViewBag.Computador.Id" />
+
+
+<div class="row">
+    <div class="col-5">
+        <div class="form-group">
+            <label for="computador-editar-categoria">Categoria</label>
+            <select class="form-control"
+                    id="computador-editar-categoria">
+                <option value="@ViewBag.Computador.Categoria.Id" 
+                        selected="selected">
+                    @ViewBag.Computador.Categoria.Nome
+                </option>
+            </select>
+        </div>
+
+        <div class="form-group ">
+            <label for="computador-editar-nome">Nome</label>
+            <input id="computador-editar-nome" class="form-control"
+                   value="@ViewBag.Computador.Nome" />
+        </div>
+
+        <div class="form-group">
+            <label for="computador-editar-preco">Preço</label>
+            <input id="computador-editar-preco" class="form-control"
+                   value="@ViewBag.Computador.Preco" />
+        </div>
+
+        <button class="btn btn-success float-lg-right"
+                id="computador-editar-salvar">
+            Salvar
+        </button>
+
+
+    </div>
+    <div class="col-7">
+        <h3> Lista de Peças</h3>
+
+        <button class="btn btn-primary float-right mb-2"
+                data-toggle="modal" data-target="#modal-peca-relacionamento">
+            Nova Peça
+        </button>
+
+        <table class="table table-striped table-hover table-bordered"
+               id="computador-pecas-index">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+        </table>
+
+        <span class="font-weight-bold">Total <span id="computador-pecas-total"></span></span>
+
+    </div>
+</div>
+
+<partial name="CadastroModalPeca.cshtml" />
+@section Scripts{
+    <script src="~/js/computador/computador-editar.js"></script>
+    <script src="~/js/computador/computador-peca.js"></script>
+ }
